@@ -1,0 +1,21 @@
+appId: com.tutor.app
+productName: Tutor
+directories:
+  output: release
+  buildResources: build
+files:
+  - dist/**/*
+  - node_modules/**/*
+  - package.json
+# The speech sidecar runs from the user's Python env; ship the script, not an interpreter.
+extraResources:
+  - from: python
+    to: python
+    filter:
+      - "*.py"
+      - requirements.txt
+win:
+  target: nsis
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
