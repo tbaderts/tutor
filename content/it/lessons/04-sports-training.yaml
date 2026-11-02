@@ -1,0 +1,121 @@
+id: sports-2
+topic: sports
+title: Allenamento e gare
+subtitle: Training, distances and races
+level: A1
+goals:
+  - Say how often and how far you train
+  - Count up to 100
+  - Use the reflexive verb allenarsi
+
+vocabulary:
+  - text: l'allenamento
+    en: training (session)
+  - text: allenarsi
+    en: to train
+    note: mi alleno
+  - text: la gara
+    en: race, competition
+  - text: il chilometro
+    en: kilometre
+  - text: la piscina
+    en: swimming pool
+  - text: il lago
+    en: lake
+  - text: la salita
+    en: climb, uphill
+  - text: veloce
+    en: fast
+  - text: stanco
+    en: tired (m.)
+    note: f. stanca
+  - text: ogni giorno
+    en: every day
+  - text: due volte alla settimana
+    en: twice a week
+  - text: il fine settimana
+    en: (the) weekend
+
+phrases:
+  - text: Mi alleno cinque volte alla settimana.
+    en: I train five times a week.
+  - text: Oggi corro dieci chilometri.
+    en: Today I'm running ten kilometres.
+  - text: Il martedì nuoto in piscina.
+    en: On Tuesdays I swim in the pool.
+  - text: Domenica ho una gara.
+    en: On Sunday I have a race.
+  - text: Faccio un giro in bici di ottanta chilometri.
+    en: I'm doing an 80 km bike ride.
+  - text: Sono stanco, ma contento.
+    en: I'm tired but happy.
+    note: a woman says "stanca, ma contenta"
+  - text: Quanti chilometri fai?
+    en: How many kilometres do you do?
+
+grammar: |
+  ## Reflexive verbs: *allenarsi* (to train)
+
+  The pronoun goes **before** the verb:
+
+  | singular | plural |
+  |---|---|
+  | io **mi** alleno | noi **ci** alleniamo |
+  | tu **ti** alleni | voi **vi** allenate |
+  | lui / lei **si** allena | loro **si** allenano |
+
+  ## Numbers
+
+  1 uno · 2 due · 3 tre · 4 quattro · 5 cinque · 6 sei · 7 sette · 8 otto · 9 nove · 10 dieci
+
+  20 venti · 30 trenta · 40 quaranta · 50 cinquanta · 60 sessanta · 70 settanta · 80 ottanta · 90 novanta · 100 cento
+
+  Tens + units join into one word: *ventidue* (22), *trentacinque* (35). Before *uno* and *otto* the final vowel drops: *ventuno* (21), *quarantotto* (48).
+
+  ## How often
+
+  **ogni giorno** (every day) · **due volte alla settimana** (twice a week) · **il martedì** (on Tuesdays — with the article it means *every* Tuesday; **martedì** alone means *this* Tuesday)
+
+dialogue:
+  title: After a run with the running club
+  speakers:
+    Sara: female
+  lines:
+    - speaker: Sara
+      text: Quanti chilometri fai oggi?
+      en: How many kilometres are you doing today?
+    - speaker: you
+      text: Oggi corro dieci chilometri. E tu?
+      en: Today I'm running ten kilometres. And you?
+    - speaker: Sara
+      text: Solo cinque. Quante volte ti alleni alla settimana?
+      en: Only five. How many times a week do you train?
+    - speaker: you
+      text: Mi alleno cinque volte alla settimana.
+      en: I train five times a week.
+    - speaker: Sara
+      text: Fai anche gare?
+      en: Do you do races too?
+    - speaker: you
+      text: Sì, domenica ho un triathlon sul lago.
+      en: Yes, on Sunday I have a triathlon on the lake.
+    - speaker: Sara
+      text: In bocca al lupo!
+      en: Good luck! (literally "into the wolf's mouth")
+    - speaker: you
+      text: Crepi! Grazie.
+      en: Thanks! (the traditional answer — "may it die")
+
+challenge:
+  - text: Mi alleno tre volte alla settimana.
+    en: I train three times a week.
+  - text: Domenica ho una gara.
+    en: On Sunday I have a race.
+  - text: Sono stanco.
+    en: I'm tired.
+    accept:
+      - Sono stanca.
+  - text: Nuoto nel lago.
+    en: I swim in the lake.
+  - text: Quanti chilometri corri?
+    en: How many kilometres do you run?

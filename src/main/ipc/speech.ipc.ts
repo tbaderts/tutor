@@ -10,10 +10,10 @@ export function registerSpeechIpc(
   speech: SpeechService,
   settings: () => SpeechSettings,
 ): void {
-  ipcMain.handle('speech:synthesize', async (_event, text: string, speed?: number) => {
+  ipcMain.handle('speech:synthesize', async (_event, text: string, options: { speed?: number; voice?: string } = {}) => {
     const { general, speech: s } = configService.getConfig();
-    const voice = voiceFor(general.targetLanguage, s.voice);
-    return speech.synthesize(text, voice, speed ?? s.speed, targetLanguage(general.targetLanguage).tts);
+    const voice = voiceFor(general.targetLanguage, options.voice ?? s.voice);
+    return speech.synthesize(text, voice, options.speed ?? s.speed, targetLanguage(general.targetLanguage).tts);
   });
 
   ipcMain.handle('speech:transcribe', async (_event, samples: Float32Array) => {

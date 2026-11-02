@@ -1,0 +1,119 @@
+id: dog-2
+topic: dog
+title: Incontri al parco
+subtitle: Small talk with other dog owners
+level: A1
+goals:
+  - Ask and answer simple questions about dogs
+  - Use question words (come, quanti, dove, che)
+  - Make friendly small talk with strangers
+
+vocabulary:
+  - text: il parco
+    en: park
+  - text: il padrone
+    en: (dog) owner (m.)
+    note: f. la padrona
+  - text: carino
+    en: cute (m.)
+    note: f. carina
+  - text: socievole
+    en: friendly, sociable
+  - text: accarezzare
+    en: to pet, to stroke
+  - text: giocare
+    en: to play
+  - text: mordere
+    en: to bite
+  - text: l'incrocio
+    en: mixed breed
+  - text: insieme
+    en: together
+  - text: spesso
+    en: often
+
+phrases:
+  - text: Com'è carino! Come si chiama?
+    en: How cute! What's his name?
+  - text: Posso accarezzarlo?
+    en: Can I pet him?
+    note: for a female dog "accarezzarla"
+  - text: Certo, non morde.
+    en: Sure, he doesn't bite.
+  - text: È molto socievole.
+    en: He's very friendly.
+  - text: Che razza è?
+    en: What breed is he?
+  - text: È un incrocio.
+    en: He's a mixed breed.
+  - text: Possono giocare insieme?
+    en: Can they play together?
+  - text: Venite spesso qui?
+    en: Do you (two) come here often?
+  - text: Buona passeggiata!
+    en: Enjoy your walk!
+
+grammar: |
+  ## Question words
+
+  | word | meaning | example |
+  |---|---|---|
+  | **come?** | how? | Come si chiama? |
+  | **che? / che cosa?** | what? | Che razza è? |
+  | **quanti? / quante?** | how many? | Quanti anni ha? |
+  | **dove?** | where? | Dove abiti? |
+  | **quando?** | when? | Quando venite al parco? |
+  | **chi?** | who? | Chi è il padrone? |
+  | **perché?** | why? / because | Perché abbaia? |
+
+  A yes/no question is just a statement with a rising voice: *Non morde.* → *Non morde?*
+
+  ## *him / her*: -lo, -la
+
+  After an infinitive, *lo* (him/it) and *la* (her) attach to the end:
+
+  *Posso accarezzar**lo**?* (a male dog) · *Posso accarezzar**la**?* (a female dog)
+
+dialogue:
+  title: In the park in the evening
+  speakers:
+    Chiara: female
+  lines:
+    - speaker: Chiara
+      text: Ciao! Com'è carino! Come si chiama?
+      en: Hi! How cute! What's his name?
+    - speaker: you
+      text: Si chiama Max. E il tuo?
+      en: He's called Max. And yours?
+    - speaker: Chiara
+      text: Lei è Luna. Posso accarezzarlo?
+      en: She's Luna. Can I pet him?
+    - speaker: you
+      text: Certo, non morde. È molto socievole.
+      en: Sure, he doesn't bite. He's very friendly.
+    - speaker: Chiara
+      text: Possono giocare insieme?
+      en: Can they play together?
+    - speaker: you
+      text: Sì, volentieri! Venite spesso qui?
+      en: Yes, gladly! Do you come here often?
+    - speaker: Chiara
+      text: Ogni sera. Allora a domani!
+      en: Every evening. See you tomorrow then!
+    - speaker: you
+      text: A domani! Buona passeggiata!
+      en: See you tomorrow! Enjoy your walk!
+
+challenge:
+  - text: Come si chiama?
+    en: What's his name?
+  - text: Posso accarezzarlo?
+    en: Can I pet him?
+  - text: Non morde.
+    en: He doesn't bite.
+  - text: Che razza è?
+    en: What breed is it?
+  - text: Vieni spesso qui?
+    en: Do you come here often?
+    accept:
+      - Venite spesso qui?

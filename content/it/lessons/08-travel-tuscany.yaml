@@ -1,0 +1,126 @@
+id: travel-1
+topic: travel
+title: In Toscana
+subtitle: Arriving, accommodation and finding your way
+level: A1
+goals:
+  - Check in at a hotel or agriturismo
+  - Ask what there is nearby with c'è / ci sono
+  - Ask for and understand simple directions
+
+vocabulary:
+  - text: l'agriturismo
+    en: farm stay
+  - text: la camera
+    en: (hotel) room
+  - text: la prenotazione
+    en: booking, reservation
+  - text: la chiave
+    en: key
+  - text: la colazione
+    en: breakfast
+  - text: la stazione
+    en: station
+  - text: il centro
+    en: (town) centre
+  - text: la piazza
+    en: square
+  - text: la collina
+    en: hill
+  - text: vicino
+    en: near
+  - text: lontano
+    en: far
+  - text: a destra
+    en: on the right
+  - text: a sinistra
+    en: on the left
+  - text: dritto
+    en: straight on
+
+phrases:
+  - text: Buonasera, ho una prenotazione.
+    en: Good evening, I have a booking.
+  - text: A che ora è la colazione?
+    en: What time is breakfast?
+  - text: Scusi, dov'è la stazione?
+    en: Excuse me, where's the station?
+  - text: C'è un supermercato qui vicino?
+    en: Is there a supermarket near here?
+  - text: Vada dritto e poi giri a destra.
+    en: Go straight on and then turn right.
+    note: you will hear this — polite form
+  - text: È lontano?
+    en: Is it far?
+  - text: In Toscana ci sono molte colline.
+    en: In Tuscany there are many hills.
+  - text: Vorrei visitare Siena e San Gimignano.
+    en: I'd like to visit Siena and San Gimignano.
+
+grammar: |
+  ## *c'è* and *ci sono* (there is / there are)
+
+  - **c'è** + singular: *C'è un ristorante qui vicino?*
+  - **ci sono** + plural: *Ci sono molte colline.*
+
+  ## *dov'è* / *dove sono* (where is / where are)
+
+  *Dov'è la stazione?* · *Dove sono le chiavi?*
+
+  ## Polite and informal
+
+  With strangers, staff and older people use the polite form:
+
+  | informal (tu) | polite (Lei) |
+  |---|---|
+  | Scusa! | **Scusi!** |
+  | Vai dritto. | **Vada** dritto. |
+  | Giri a destra? (you turn) | **Giri** a destra. (please turn) |
+
+  ## *vorrei* (I would like) + infinitive
+
+  *Vorrei visitare Siena.* · *Vorrei una camera per due notti.*
+
+dialogue:
+  title: Arriving at an agriturismo near Montepulciano
+  speakers:
+    Signor Bruni: male
+  lines:
+    - speaker: Signor Bruni
+      text: Buonasera! Benvenuti!
+      en: Good evening! Welcome!
+    - speaker: you
+      text: Buonasera, ho una prenotazione per tre notti.
+      en: Good evening, I have a booking for three nights.
+    - speaker: Signor Bruni
+      text: Perfetto. Ecco la chiave della camera.
+      en: Perfect. Here's the key to the room.
+    - speaker: you
+      text: Grazie. A che ora è la colazione?
+      en: Thank you. What time is breakfast?
+    - speaker: Signor Bruni
+      text: Dalle otto alle dieci.
+      en: From eight to ten.
+    - speaker: you
+      text: C'è un ristorante qui vicino?
+      en: Is there a restaurant near here?
+    - speaker: Signor Bruni
+      text: Sì, in paese, a cinque minuti. Vada dritto e poi a sinistra.
+      en: Yes, in the village, five minutes away. Go straight on and then left.
+    - speaker: you
+      text: Grazie mille!
+      en: Thanks a lot!
+
+challenge:
+  - text: Ho una prenotazione.
+    en: I have a booking.
+  - text: Dov'è la stazione?
+    en: Where is the station?
+    accept:
+      - Scusi, dov'è la stazione?
+  - text: C'è un ristorante qui vicino?
+    en: Is there a restaurant near here?
+  - text: A che ora è la colazione?
+    en: What time is breakfast?
+  - text: Vorrei visitare Siena.
+    en: I'd like to visit Siena.

@@ -55,6 +55,27 @@ export function SentenceDiff({ ops }: { ops: DiffOp[] }) {
   );
 }
 
+/** Compact one-line version for lists: what was heard; wrong words struck through, followed by the expected words underlined. */
+export function HeardWords({ ops, score }: { ops: DiffOp[]; score: number }) {
+  const color = score >= 90 ? 'bg-success/15 text-success' : score >= 60 ? 'bg-warning/15 text-warning' : 'bg-destructive/15 text-destructive';
+  return (
+    <div className="flex flex-wrap items-center gap-x-1.5 gap-y-1 text-sm">
+      <span className={cn('rounded px-1.5 py-0.5 text-xs font-semibold tabular-nums', color)}>{score}%</span>
+      <span className="text-muted-foreground">You said:</span>
+      {ops.map((op, i) => (
+        <React.Fragment key={i}>
+          {op.heard.length > 0 && (
+            <span className={op.op === 'equal' ? 'text-success' : 'text-warning line-through'}>{op.heard.join(' ')}</span>
+          )}
+          {(op.op === 'delete' || op.op === 'replace') && (
+            <span className="font-semibold text-destructive underline underline-offset-4" title="expected">{op.target.join(' ')}</span>
+          )}
+        </React.Fragment>
+      ))}
+    </div>
+  );
+}
+
 export function ScoreMeter({ score }: { score: number }) {
   const color = score >= 90 ? 'bg-success' : score >= 60 ? 'bg-warning' : 'bg-destructive';
   return (

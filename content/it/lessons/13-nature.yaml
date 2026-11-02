@@ -1,0 +1,111 @@
+id: nature-1
+topic: nature
+title: Natura e ambiente
+subtitle: Landscapes, the outdoors and protecting the environment
+level: A1
+goals:
+  - Name landscapes and things in nature
+  - Use the definite articles il, lo, la, l', i, gli, le
+  - Say what we need to do with bisogna
+
+vocabulary:
+  - text: la natura
+    en: nature
+  - text: l'ambiente
+    en: environment (m.)
+  - text: la montagna
+    en: mountain
+  - text: il bosco
+    en: wood, forest
+  - text: il fiume
+    en: river
+  - text: il sentiero
+    en: path, trail
+  - text: l'albero
+    en: tree (m.)
+  - text: l'aria
+    en: air (f.)
+  - text: la plastica
+    en: plastic
+  - text: il vetro
+    en: glass
+  - text: riciclare
+    en: to recycle
+  - text: inquinato
+    en: polluted
+  - text: il cambiamento climatico
+    en: climate change
+
+phrases:
+  - text: Amo la natura.
+    en: I love nature.
+  - text: Nel fine settimana vado in montagna.
+    en: At the weekend I go to the mountains.
+  - text: Il bosco è molto tranquillo.
+    en: The forest is very quiet.
+  - text: Bisogna proteggere l'ambiente.
+    en: We need to protect the environment.
+  - text: Ricicliamo la plastica e il vetro.
+    en: We recycle plastic and glass.
+  - text: Vado al lavoro in bici.
+    en: I go to work by bike.
+  - text: Il cambiamento climatico è un grande problema.
+    en: Climate change is a big problem.
+  - text: Qui il mare è pulito.
+    en: The sea is clean here.
+
+grammar: |
+  ## *the*: definite articles
+
+  | | singular | plural |
+  |---|---|---|
+  | masculine, most words | **il** bosco | **i** boschi |
+  | masculine, *s* + consonant, *z* | **lo** zaino | **gli** zaini |
+  | masculine, vowel | **l'**albero | **gli** alberi |
+  | feminine | **la** montagna | **le** montagne |
+  | feminine, vowel | **l'**isola | **le** isole |
+
+  Italian uses the article for general ideas, where English doesn't: ***la** natura* (nature), ***la** plastica* (plastic), ***il** cambiamento climatico* (climate change).
+
+  ## *bisogna* + infinitive
+
+  **Bisogna** means *one must / we need to*. It never changes: *Bisogna riciclare. Bisogna proteggere l'ambiente.*
+
+dialogue:
+  title: A hike above the Ligurian coast
+  speakers:
+    Marta: female
+  lines:
+    - speaker: Marta
+      text: Che bello qui! Amo la natura.
+      en: It's beautiful here! I love nature.
+    - speaker: you
+      text: Anch'io. Il bosco è molto tranquillo.
+      en: Me too. The forest is very quiet.
+    - speaker: Marta
+      text: Guarda, c'è della plastica sul sentiero.
+      en: Look, there's some plastic on the path.
+    - speaker: you
+      text: Che peccato! Bisogna proteggere l'ambiente.
+      en: What a shame! We need to protect the environment.
+    - speaker: Marta
+      text: Hai ragione. Io riciclo sempre e vado al lavoro in bici.
+      en: You're right. I always recycle and go to work by bike.
+    - speaker: you
+      text: Anch'io! E nel fine settimana vado in montagna.
+      en: Me too! And at the weekend I go to the mountains.
+
+challenge:
+  - text: Amo la natura.
+    en: I love nature.
+  - text: Bisogna proteggere l'ambiente.
+    en: We need to protect the environment.
+  - text: Vado al lavoro in bici.
+    en: I go to work by bike.
+    accept:
+      - Vado a lavorare in bici.
+      - Vado al lavoro in bicicletta.
+  - text: Il bosco è molto tranquillo.
+    en: The forest is very quiet.
+  - text: Ricicliamo la plastica.
+    en: We recycle plastic.

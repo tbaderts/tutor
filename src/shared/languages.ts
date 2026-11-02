@@ -79,6 +79,11 @@ export function nativeLanguageName(id: string): string {
   return (NATIVE_LANGUAGES as Record<string, { name: string }>)[id]?.name ?? 'English';
 }
 
+/** Kokoro voice ids encode the gender in their second letter (if_sara, im_nicola). */
+export function voiceGender(id: string): 'female' | 'male' {
+  return id[1] === 'm' ? 'male' : 'female';
+}
+
 /** The configured voice if the target language has it, else that language's first voice. */
 export function voiceFor(targetId: string, voice: string): string {
   const voices = targetLanguage(targetId).voices;

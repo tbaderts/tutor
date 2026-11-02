@@ -1,0 +1,117 @@
+id: sports-3
+topic: sports
+title: Mi fa male il ginocchio
+subtitle: Body parts and the aches after training
+level: A1
+goals:
+  - Name parts of the body
+  - Say what hurts
+  - Understand simple advice
+
+vocabulary:
+  - text: la testa
+    en: head
+  - text: la schiena
+    en: back
+  - text: la spalla
+    en: shoulder
+  - text: il braccio
+    en: arm
+    note: plural le braccia
+  - text: la mano
+    en: hand
+    note: plural le mani
+  - text: la gamba
+    en: leg
+  - text: il ginocchio
+    en: knee
+    note: plural le ginocchia
+  - text: il piede
+    en: foot
+  - text: la caviglia
+    en: ankle
+  - text: il muscolo
+    en: muscle
+  - text: riposare
+    en: to rest
+  - text: il ghiaccio
+    en: ice
+
+phrases:
+  - text: Mi fa male il ginocchio.
+    en: My knee hurts.
+  - text: Mi fanno male le gambe.
+    en: My legs hurt.
+  - text: Ho mal di schiena.
+    en: I have back pain.
+  - text: Dopo il pugilato mi fa male la spalla.
+    en: After boxing my shoulder hurts.
+  - text: Devo riposare due giorni.
+    en: I have to rest for two days.
+  - text: Metti un po' di ghiaccio.
+    en: Put some ice on it.
+  - text: Come stai?
+    en: How are you?
+
+grammar: |
+  ## Saying what hurts
+
+  Literally *"it does me harm"* — the body part is the subject, so the verb agrees with it:
+
+  - one thing: **Mi fa male** + singular — *Mi fa male **il** ginocchio.*
+  - more than one: **Mi fanno male** + plural — *Mi fanno male **le** gambe.*
+
+  Note: Italian says ***il** ginocchio* (the knee), not *my knee*.
+
+  For common aches: **Ho mal di** + body part — *Ho mal di testa, Ho mal di schiena.*
+
+  ## Irregular plurals
+
+  Some body parts become feminine in the plural:
+
+  | singular | plural |
+  |---|---|
+  | il braccio | **le braccia** |
+  | il ginocchio | **le ginocchia** |
+  | il dito (finger) | **le dita** |
+  | la mano | **le mani** |
+
+  ## *dovere* (must, to have to)
+
+  **devo**, devi, deve, dobbiamo, dovete, devono + infinitive: *Devo riposare.*
+
+dialogue:
+  title: The day after the race
+  speakers:
+    Davide: male
+  lines:
+    - speaker: Davide
+      text: Come stai dopo la gara?
+      en: How are you after the race?
+    - speaker: you
+      text: Così così. Mi fa male il ginocchio.
+      en: So-so. My knee hurts.
+    - speaker: Davide
+      text: Ti fanno male anche le gambe?
+      en: Do your legs hurt too?
+    - speaker: you
+      text: Sì, un po'. E ho mal di schiena.
+      en: Yes, a bit. And I have back pain.
+    - speaker: Davide
+      text: Devi riposare! Metti un po' di ghiaccio.
+      en: You have to rest! Put some ice on it.
+    - speaker: you
+      text: Hai ragione. Domani niente allenamento.
+      en: You're right. No training tomorrow.
+
+challenge:
+  - text: Mi fa male il ginocchio.
+    en: My knee hurts.
+  - text: Mi fanno male le gambe.
+    en: My legs hurt.
+  - text: Ho mal di testa.
+    en: I have a headache.
+  - text: Devo riposare.
+    en: I have to rest.
+  - text: Come stai?
+    en: How are you?

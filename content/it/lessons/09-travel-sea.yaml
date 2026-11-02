@@ -1,0 +1,118 @@
+id: travel-2
+topic: travel
+title: Al mare in Liguria e in Sicilia
+subtitle: The beach, trains and the weather
+level: A1
+goals:
+  - Talk about the weather
+  - Buy a train ticket
+  - Say where you are going with a and in
+
+vocabulary:
+  - text: il mare
+    en: sea
+  - text: la spiaggia
+    en: beach
+  - text: l'ombrellone
+    en: beach umbrella
+  - text: la barca
+    en: boat
+  - text: l'isola
+    en: island
+  - text: il treno
+    en: train
+  - text: il biglietto
+    en: ticket
+  - text: andata e ritorno
+    en: return (ticket)
+  - text: il binario
+    en: platform
+  - text: il sole
+    en: sun
+  - text: il vento
+    en: wind
+  - text: caldo
+    en: hot, warm
+
+phrases:
+  - text: Oggi fa caldo.
+    en: It's hot today.
+  - text: C'è il sole.
+    en: It's sunny.
+  - text: Un biglietto per Genova, per favore.
+    en: A ticket to Genoa, please.
+  - text: A che ora parte il treno?
+    en: What time does the train leave?
+  - text: Andiamo in spiaggia?
+    en: Shall we go to the beach?
+  - text: Quest'estate vado in Sicilia.
+    en: This summer I'm going to Sicily.
+  - text: Vado a Palermo e poi a Siracusa.
+    en: I'm going to Palermo and then to Syracuse.
+  - text: Le Cinque Terre sono bellissime.
+    en: The Cinque Terre are beautiful.
+
+grammar: |
+  ## *andare* (to go) — irregular
+
+  | singular | plural |
+  |---|---|
+  | io **vado** | noi **andiamo** |
+  | tu **vai** | voi **andate** |
+  | lui / lei **va** | loro **vanno** |
+
+  *Andiamo in spiaggia?* — *We go…?* is also how Italians say *Shall we go…?*
+
+  ## *a* or *in*?
+
+  - **a** + city or town: *vado **a** Genova, **a** Palermo, **a** Siracusa*
+  - **in** + region, country, big island: *vado **in** Liguria, **in** Sicilia, **in** Italia*
+  - fixed expressions: ***in** spiaggia, **al** mare, **in** montagna*
+
+  ## The weather
+
+  - **fa** caldo / freddo / bel tempo — it's hot / cold / nice
+  - **c'è** il sole / vento — it's sunny / windy
+  - **piove** — it's raining
+
+dialogue:
+  title: At the station in La Spezia
+  speakers:
+    Bigliettaio: male
+  lines:
+    - speaker: you
+      text: Buongiorno, un biglietto per Monterosso, per favore.
+      en: Good morning, a ticket to Monterosso, please.
+    - speaker: Bigliettaio
+      text: Solo andata o andata e ritorno?
+      en: One way or return?
+    - speaker: you
+      text: Andata e ritorno.
+      en: Return.
+    - speaker: Bigliettaio
+      text: Ecco a lei. Sono otto euro.
+      en: Here you are. That's eight euros.
+    - speaker: you
+      text: A che ora parte il treno?
+      en: What time does the train leave?
+    - speaker: Bigliettaio
+      text: Alle dieci e un quarto, dal binario due.
+      en: At quarter past ten, from platform two.
+    - speaker: you
+      text: Grazie! Oggi fa caldo, eh?
+      en: Thanks! It's hot today, isn't it?
+    - speaker: Bigliettaio
+      text: Sì, è una bella giornata per il mare!
+      en: Yes, it's a lovely day for the sea!
+
+challenge:
+  - text: Oggi fa caldo.
+    en: It's hot today.
+  - text: Un biglietto per Palermo, per favore.
+    en: A ticket to Palermo, please.
+  - text: Quest'estate vado in Sicilia.
+    en: This summer I'm going to Sicily.
+  - text: Andiamo in spiaggia?
+    en: Shall we go to the beach?
+  - text: A che ora parte il treno?
+    en: What time does the train leave?

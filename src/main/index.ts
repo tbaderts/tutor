@@ -10,6 +10,10 @@ import { registerSpeechIpc } from './ipc/speech.ipc';
 import { registerTutorIpc } from './ipc/tutor.ipc';
 import { registerHistoryIpc } from './ipc/history.ipc';
 import { registerShellIpc } from './ipc/shell.ipc';
+import { registerLessonsIpc } from './ipc/lessons.ipc';
+import { LessonService } from './services/LessonService';
+import { LessonGenerator } from './services/LessonGenerator';
+import { ProgressService } from './services/ProgressService';
 import { createApplicationMenu } from './menu';
 import type { TutorConfig } from '../shared/types/config';
 
@@ -21,11 +25,9 @@ let history: HistoryService;
 
 const isDev = process.env.DEV_SERVER === 'true';
 
-/** The sidecar script ships as an extra resource; in development it is read from the repo. */
-const speechScript = () =>
-  app.isPackaged
-    ? path.join(process.resourcesPath, 'python', 'speech_server.py')
-    : path.join(app.getAppPath(), 'python', 'speech_server.py');
+/** The sidecar script and the lessons ship as extra resources; in development they are read from the repo. */
+const resource = (...parts: string[]) =>
+  path.join(app.isPackaged ? process.resourcesPath : app.getAppPath(), ...parts);
 
 function speechSettings(): SpeechSettings {
   const { speech: s } = configService.getConfig();
@@ -82,8 +84,10 @@ app.whenReady().then(async () => {
   configService = new ConfigService();
   await configService.load();
   ollama = new OllamaService(() => configService.getConfig().llm);
-  speech = new SpeechService(speechScript());
+  speech = new SpeechService(resource('python', 'speech_server.py'));
   history = new HistoryService(configService.getConfigDir());
+  const lessons = new LessonService(resource('content'), path.join(configService.getConfigDir(), 'lessons'));
+  const progress = new ProgressService(configService.getConfigDir());
 
   registerConfigIpc(ipcMain, configService, onConfigSaved);
   registerSystemIpc(ipcMain, ollama, speech, () => speech.start(speechSettings()));
@@ -91,6 +95,7 @@ app.whenReady().then(async () => {
   registerTutorIpc(ipcMain, configService, ollama);
   registerHistoryIpc(ipcMain, history);
   registerShellIpc(ipcMain);
+  registerLessonsIpc(ipcMain, configService, lessons, progress, new LessonGenerator(configService, lessons, ollama));
   allowMicrophone();
   createApplicationMenu();
 

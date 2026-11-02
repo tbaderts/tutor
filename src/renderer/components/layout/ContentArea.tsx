@@ -2,6 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import { useNavigationStore, type ViewId } from '@/stores/navigation';
 import { LoadingSpinner } from '@/components/LoadingSpinner';
 
+const LessonsView = lazy(() => import('@/views/lessons/LessonsView').then((m) => ({ default: m.LessonsView })));
 const PracticeView = lazy(() => import('@/views/practice/PracticeView').then((m) => ({ default: m.PracticeView })));
 const FreeSpeakingView = lazy(() => import('@/views/free/FreeSpeakingView').then((m) => ({ default: m.FreeSpeakingView })));
 const AskView = lazy(() => import('@/views/ask/AskView').then((m) => ({ default: m.AskView })));
@@ -10,6 +11,7 @@ const SettingsView = lazy(() => import('@/views/settings/SettingsView').then((m)
 const AboutView = lazy(() => import('@/views/about/AboutView').then((m) => ({ default: m.AboutView })));
 
 const VIEW_MAP: Record<ViewId, React.LazyExoticComponent<React.FC>> = {
+  lessons: LessonsView,
   practice: PracticeView,
   free: FreeSpeakingView,
   ask: AskView,

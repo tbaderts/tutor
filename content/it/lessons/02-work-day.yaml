@@ -1,0 +1,123 @@
+id: work-2
+topic: work
+title: La mia giornata di lavoro
+subtitle: Your workday, meetings and the time
+level: A1
+goals:
+  - Describe a normal workday
+  - Use regular -are verbs in the present tense
+  - Ask and tell the time
+
+vocabulary:
+  - text: la riunione
+    en: meeting
+  - text: il codice
+    en: code
+  - text: lavorare
+    en: to work
+  - text: programmare
+    en: to program
+  - text: iniziare
+    en: to start
+  - text: finire
+    en: to finish
+    note: io finisco
+  - text: la pausa pranzo
+    en: lunch break
+  - text: la mattina
+    en: (the) morning
+  - text: il pomeriggio
+    en: (the) afternoon
+  - text: la sera
+    en: (the) evening
+  - text: oggi
+    en: today
+  - text: domani
+    en: tomorrow
+
+phrases:
+  - text: Inizio a lavorare alle otto.
+    en: I start working at eight.
+  - text: Ho una riunione alle dieci.
+    en: I have a meeting at ten.
+  - text: Oggi lavoro su un nuovo progetto.
+    en: Today I'm working on a new project.
+  - text: Scrivo codice tutto il giorno.
+    en: I write code all day.
+  - text: Faccio la pausa pranzo a mezzogiorno.
+    en: I take my lunch break at noon.
+  - text: Finisco di lavorare alle sei.
+    en: I finish work at six.
+  - text: Che ore sono?
+    en: What time is it?
+  - text: Sono le tre e mezza.
+    en: It's half past three.
+
+grammar: |
+  ## Present tense of *-are* verbs
+
+  Take off **-are** and add the endings. *lavorare* (to work):
+
+  | Italian | English |
+  |---|---|
+  | io lavor**o** | I work |
+  | tu lavor**i** | you work |
+  | lui / lei lavor**a** | he / she works |
+  | noi lavor**iamo** | we work |
+  | voi lavor**ate** | you (pl.) work |
+  | loro lavor**ano** | they work |
+
+  The same pattern: *programmare → programmo*, *iniziare → inizio, inizi* (only one *i*).
+
+  The Italian present also covers *I am working*: **Oggi lavoro su un progetto** = *Today I'm working on a project*.
+
+  ## Telling the time
+
+  - **Che ore sono?** — *Sono le* + hour: *Sono le tre.* But: **È l'una**, **È mezzogiorno**.
+  - **e un quarto** (quarter past), **e mezza** (half past), **meno un quarto** (quarter to).
+  - *At* a time: **alle** + hour — *alle otto, alle dieci*; but **all'una**, **a mezzogiorno**.
+
+dialogue:
+  title: Morning call with a colleague
+  speakers:
+    Marco: male
+  lines:
+    - speaker: Marco
+      text: Buongiorno! Come va?
+      en: Good morning! How's it going?
+    - speaker: you
+      text: Bene, grazie. Oggi ho molto lavoro.
+      en: Fine, thanks. I have a lot of work today.
+    - speaker: Marco
+      text: Abbiamo una riunione alle dieci, vero?
+      en: We have a meeting at ten, right?
+    - speaker: you
+      text: Sì, alle dieci. Dopo lavoro sul nuovo progetto.
+      en: Yes, at ten. Afterwards I'm working on the new project.
+    - speaker: Marco
+      text: Fai la pausa pranzo con noi?
+      en: Are you having lunch with us?
+    - speaker: you
+      text: Volentieri! A che ora?
+      en: Gladly! At what time?
+    - speaker: Marco
+      text: A mezzogiorno e mezza.
+      en: At half past twelve.
+
+challenge:
+  - text: Ho una riunione alle dieci.
+    en: I have a meeting at ten.
+  - text: Inizio a lavorare alle otto.
+    en: I start working at eight.
+    accept:
+      - Comincio a lavorare alle otto.
+  - text: Oggi lavoro su un nuovo progetto.
+    en: Today I'm working on a new project.
+  - text: Che ore sono?
+    en: What time is it?
+    accept:
+      - Che ora è?
+  - text: Finisco alle sei.
+    en: I finish at six.
+    accept:
+      - Finisco di lavorare alle sei.

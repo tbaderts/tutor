@@ -1,0 +1,120 @@
+id: sports-1
+topic: sports
+title: Che sport fai?
+subtitle: Name your sports and say what you do
+level: A1
+goals:
+  - Say which sports you do
+  - Use fare, andare and giocare with sports
+  - Talk about summer and winter sports
+
+vocabulary:
+  - text: il ciclismo
+    en: cycling
+  - text: la bici
+    en: bike
+    note: short for la bicicletta
+  - text: la corsa
+    en: running
+  - text: il nuoto
+    en: swimming
+  - text: il triathlon
+    en: triathlon
+  - text: il pugilato
+    en: boxing
+    note: also "la boxe"
+  - text: le arti marziali
+    en: martial arts
+  - text: lo snowboard
+    en: snowboarding
+  - text: lo sci di fondo
+    en: cross-country skiing
+  - text: il pattinaggio in linea
+    en: inline skating
+  - text: correre
+    en: to run
+  - text: nuotare
+    en: to swim
+
+phrases:
+  - text: Che sport fai?
+    en: What sport do you do?
+  - text: Faccio triathlon.
+    en: I do triathlon.
+  - text: Vado in bici quasi ogni giorno.
+    en: I ride my bike almost every day.
+  - text: Corro e nuoto.
+    en: I run and swim.
+  - text: Faccio pugilato e arti marziali.
+    en: I do boxing and martial arts.
+  - text: D'inverno faccio snowboard e sci di fondo.
+    en: In winter I go snowboarding and cross-country skiing.
+  - text: D'estate faccio pattinaggio in linea.
+    en: In summer I go inline skating.
+  - text: Mi piace molto lo sport.
+    en: I really like sport.
+
+grammar: |
+  ## *fare* (to do, to make) — irregular
+
+  | singular | plural |
+  |---|---|
+  | io **faccio** | noi **facciamo** |
+  | tu **fai** | voi **fate** |
+  | lui / lei **fa** | loro **fanno** |
+
+  ## Three verbs for sports
+
+  - **fare** + sport — most sports: *faccio nuoto, faccio ciclismo, faccio pugilato, faccio snowboard*
+  - **andare** + *in* + vehicle / *a* + activity: *vado **in** bici, vado **a** correre, vado **a** nuotare*
+  - **giocare a** + games with a ball: *gioco **a** calcio, gioco **a** tennis*
+
+  ## Seasons
+
+  **d'estate** (in summer), **d'inverno** (in winter), **in primavera** (in spring), **in autunno** (in autumn).
+
+dialogue:
+  title: At the gym
+  speakers:
+    Paolo: male
+  lines:
+    - speaker: Paolo
+      text: Ciao! Che sport fai?
+      en: Hi! What sport do you do?
+    - speaker: you
+      text: Faccio triathlon. Corro, nuoto e vado in bici.
+      en: I do triathlon. I run, swim and cycle.
+    - speaker: Paolo
+      text: Che bello! Io faccio pugilato.
+      en: How nice! I do boxing.
+    - speaker: you
+      text: Davvero? Anch'io faccio un po' di arti marziali.
+      en: Really? I do a bit of martial arts too.
+    - speaker: Paolo
+      text: E d'inverno?
+      en: And in winter?
+    - speaker: you
+      text: D'inverno faccio snowboard e sci di fondo.
+      en: In winter I go snowboarding and cross-country skiing.
+    - speaker: Paolo
+      text: Fai tanti sport!
+      en: You do lots of sports!
+
+challenge:
+  - text: Faccio triathlon.
+    en: I do triathlon.
+    accept:
+      - Faccio il triathlon.
+  - text: Corro e nuoto.
+    en: I run and swim.
+  - text: Vado in bici ogni giorno.
+    en: I ride my bike every day.
+    accept:
+      - Vado in bicicletta ogni giorno.
+  - text: D'inverno faccio snowboard.
+    en: In winter I go snowboarding.
+    accept:
+      - In inverno faccio snowboard.
+      - D'inverno faccio lo snowboard.
+  - text: Che sport fai?
+    en: What sport do you do?

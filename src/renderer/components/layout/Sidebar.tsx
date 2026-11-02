@@ -1,11 +1,11 @@
 import React from 'react';
-import { AudioLines, Mic, MessagesSquare, History, Settings, Info, ChevronLeft, ChevronRight } from 'lucide-react';
+import { BookOpen, AudioLines, Mic, MessagesSquare, History, Settings, Info, ChevronLeft, ChevronRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { useNavigationStore, NAV_ITEMS, type NavItem } from '@/stores/navigation';
 import { useConfigStore } from '@/stores/config';
 
 const ICON_MAP: Record<string, React.FC<{ className?: string }>> = {
-  AudioLines, Mic, MessagesSquare, History, Settings, Info,
+  BookOpen, AudioLines, Mic, MessagesSquare, History, Settings, Info,
 };
 
 export function Sidebar() {

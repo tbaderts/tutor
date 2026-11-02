@@ -11,6 +11,10 @@ language, hear it spoken, say it back and get feedback. Everything runs locally.
 
 ## Views
 
+- **Lessons:** A1 Italian lessons around work, sports, the dog, holidays in Italy, food, politics and nature.
+  Each has vocabulary, phrases, a dialogue (listen, or role-play your lines), a grammar note and a challenge
+  (English cue → say it in Italian from memory; the teacher accepts other correct answers). Every item you
+  say is scored; 80 % or more counts as mastered (`~/.tutor/progress.json`).
 - **Practice:** type a sentence in your language (or in the target language), hear it, record yourself. You get
   target vs. heard words colour-coded, a match %, the teacher's verdict and a tip. Space starts/stops recording.
 - **Free Speaking:** say anything and get a grammar check plus a corrected version you can send to Practice.
@@ -32,6 +36,55 @@ React renderer ──IPC──▶ Electron main ──HTTP──▶ Ollama (tran
 - `src/shared` — prompts, languages and voices, the word diff that scores attempts, and IPC types.
 - `python/speech_server.py` — Whisper and Kokoro behind a small HTTP API. The main process starts it on a
   free port and it exits when the app does.
+
+## Lessons
+
+Lessons are YAML files, so you can edit them without rebuilding:
+
+- shipped: `content/<language>/topics.yaml` and `content/<language>/lessons/*.yaml`
+- your own: `~/.tutor/lessons/<language>/` (same layout; open it with **My lessons folder**). A file with the
+  same `id` as a shipped lesson replaces it; press **Reload** after editing. Broken files are listed on the
+  Lessons page with the file and field.
+
+```yaml
+id: dog-3                 # unique; progress is stored per id
+topic: dog                # a topic id from topics.yaml
+title: Dal veterinario
+subtitle: At the vet
+level: A1
+goals: [Say what's wrong with your dog]
+vocabulary:
+  - { text: il veterinario, en: vet }
+phrases:
+  - { text: Il mio cane non mangia., en: My dog isn't eating. }
+grammar: |
+  ## Markdown, tables allowed
+dialogue:
+  title: At the vet
+  speakers: { Dottoressa: female }   # picks a voice per speaker
+  lines:
+    - { speaker: Dottoressa, text: Buongiorno! Cosa succede?, en: Good morning! What's the matter? }
+    - { speaker: you, text: Il mio cane non mangia., en: My dog isn't eating. }
+challenge:
+  - text: Il mio cane non mangia.
+    en: My dog isn't eating.
+    accept: [Il mio cane non mangia niente.]   # other correct answers
+```
+
+`npm test` checks every shipped lesson.
+
+### Generating lessons
+
+**Lessons → Generate a lesson:** describe a situation ("At the vet with my dog"), pick a topic (or a new
+one), a level and an Ollama model. The model writes the lesson against a JSON schema (Ollama structured
+outputs) with a shipped lesson as worked example. The app then drops empty, duplicate and placeholder items
+and checks it like a hand-written file. You get a draft you can practise right away; **Save lesson** writes
+it as YAML to your lessons folder (marked `generated_by`, shown with an "AI" badge), where you can correct it.
+
+Treat generated lessons as drafts. In tests on the vet lesson, `gemma3:4b` (~20 s) wrote mostly correct
+but bland Italian with some wrong glosses, and its dialogue didn't fit the situation; `gemma4:e4b` (~95 s,
+partly on the CPU) wrote a coherent, well-structured lesson that still had grammar mistakes
+("è qui" for "sono qui", "lasciatemi" instead of "mi lasci").
 
 ## Setup (Windows)
 

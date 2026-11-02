@@ -44,10 +44,11 @@ export function createApplicationMenu(): void {
     {
       label: 'Go',
       submenu: [
-        { label: 'Practice', accelerator: 'CmdOrCtrl+1', click: () => navigate('practice') },
-        { label: 'Free Speaking', accelerator: 'CmdOrCtrl+2', click: () => navigate('free') },
-        { label: 'Ask the Teacher', accelerator: 'CmdOrCtrl+3', click: () => navigate('ask') },
-        { label: 'History', accelerator: 'CmdOrCtrl+4', click: () => navigate('history') },
+        { label: 'Lessons', accelerator: 'CmdOrCtrl+1', click: () => navigate('lessons') },
+        { label: 'Practice', accelerator: 'CmdOrCtrl+2', click: () => navigate('practice') },
+        { label: 'Free Speaking', accelerator: 'CmdOrCtrl+3', click: () => navigate('free') },
+        { label: 'Ask the Teacher', accelerator: 'CmdOrCtrl+4', click: () => navigate('ask') },
+        { label: 'History', accelerator: 'CmdOrCtrl+5', click: () => navigate('history') },
       ],
     },
     {

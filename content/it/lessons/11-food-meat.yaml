@@ -1,0 +1,118 @@
+id: food-2
+topic: food
+title: Bistecca e cucina tradizionale
+subtitle: Meat, traditional dishes and saying what you like
+level: A1
+goals:
+  - Say what you like and don't like with piacere
+  - Order a steak cooked the way you like it
+  - Talk about traditional Italian dishes
+
+vocabulary:
+  - text: la carne
+    en: meat
+  - text: la bistecca alla fiorentina
+    en: Florentine T-bone steak
+  - text: la cottura
+    en: how it's cooked (doneness)
+  - text: al sangue
+    en: rare
+  - text: ben cotta
+    en: well done
+    note: cotta agrees with la bistecca
+  - text: il ragù
+    en: meat sauce
+  - text: la pasta fatta in casa
+    en: homemade pasta
+  - text: le lasagne
+    en: lasagne
+  - text: l'olio d'oliva
+    en: olive oil
+  - text: il formaggio
+    en: cheese
+  - text: il dolce
+    en: dessert
+  - text: piccante
+    en: spicy
+  - text: buonissimo
+    en: delicious
+
+phrases:
+  - text: Mi piace la carne.
+    en: I like meat.
+  - text: Mi piacciono i piatti tradizionali.
+    en: I like traditional dishes.
+  - text: Non mi piace il cibo piccante.
+    en: I don't like spicy food.
+  - text: Vorrei una bistecca alla fiorentina.
+    en: I'd like a Florentine steak.
+  - text: Al sangue, per favore.
+    en: Rare, please.
+  - text: La fiorentina è per due persone.
+    en: The fiorentina is for two people.
+  - text: Ti piace la cucina toscana?
+    en: Do you like Tuscan cooking?
+  - text: La pasta fatta in casa è buonissima.
+    en: Homemade pasta is delicious.
+
+grammar: |
+  ## *piacere* (to like)
+
+  Italian says *"it pleases me"*, so the verb agrees with the thing you like:
+
+  - **Mi piace** + singular or a verb: *Mi piace **la** carne. Mi piace cucinare.*
+  - **Mi piacciono** + plural: *Mi piacciono **i** piatti tradizionali.*
+  - **Ti piace / ti piacciono?** — do you like…?
+  - **Non** mi piace… — I don't like…
+
+  | Italian | English |
+  |---|---|
+  | A me piace il pesce. | *I* like fish (stressing *me*). |
+  | **Anche a me!** | Me too! |
+  | **A me no.** | Not me. |
+
+  ## *-issimo* (very)
+
+  Add **-issimo** for *very / extremely*: *buono → buon**issimo**, fresco → fresch**issimo***. It agrees like any adjective: *la pasta è buon**issima***.
+
+dialogue:
+  title: A trattoria in Florence
+  speakers:
+    Elena: female
+  lines:
+    - speaker: Elena
+      text: Ti piace la cucina toscana?
+      en: Do you like Tuscan cooking?
+    - speaker: you
+      text: Sì, mi piace moltissimo! Soprattutto la carne.
+      en: Yes, I like it a lot! Especially the meat.
+    - speaker: Elena
+      text: Allora prendiamo una fiorentina?
+      en: Shall we have a fiorentina then?
+    - speaker: you
+      text: Sì! Ma è per due persone, vero?
+      en: Yes! But it's for two people, right?
+    - speaker: Elena
+      text: Sì, circa un chilo. Come ti piace la carne?
+      en: Yes, about a kilo. How do you like your meat?
+    - speaker: you
+      text: Al sangue. E a te?
+      en: Rare. And you?
+    - speaker: Elena
+      text: Anche a me! E come primo, pappardelle al ragù.
+      en: Me too! And as a first course, pappardelle with meat sauce.
+    - speaker: you
+      text: Perfetto. Mi piacciono i piatti tradizionali.
+      en: Perfect. I like traditional dishes.
+
+challenge:
+  - text: Mi piace la carne.
+    en: I like meat.
+  - text: Mi piacciono i piatti tradizionali.
+    en: I like traditional dishes.
+  - text: Al sangue, per favore.
+    en: Rare, please.
+  - text: Non mi piace il cibo piccante.
+    en: I don't like spicy food.
+  - text: Ti piace la cucina toscana?
+    en: Do you like Tuscan cooking?

@@ -64,7 +64,7 @@ export const usePracticeStore = create<PracticeState>((set, get) => ({
     if (!target) return;
     set({ playing: true });
     try {
-      await playWav(await window.tutor.speech.synthesize(target, speed));
+      await playWav(await window.tutor.speech.synthesize(target, { speed }));
     } catch (err) {
       set({ error: `Could not speak the sentence: ${errorMessage(err)}` });
     } finally {

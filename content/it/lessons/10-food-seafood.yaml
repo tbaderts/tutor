@@ -1,0 +1,125 @@
+id: food-1
+topic: food
+title: Al ristorante di pesce
+subtitle: Order seafood and ask for the bill
+level: A1
+goals:
+  - Ask for a table and order a meal
+  - Ask what the waiter recommends
+  - Use plural articles (i, gli, le)
+
+vocabulary:
+  - text: il pesce
+    en: fish
+  - text: i frutti di mare
+    en: seafood
+  - text: le cozze
+    en: mussels
+  - text: le vongole
+    en: clams
+  - text: i gamberi
+    en: prawns
+  - text: il polpo
+    en: octopus
+  - text: il pesce spada
+    en: swordfish
+  - text: l'antipasto
+    en: starter
+  - text: il primo
+    en: first course (pasta, risotto)
+  - text: il secondo
+    en: main course (meat, fish)
+  - text: il vino bianco
+    en: white wine
+  - text: l'acqua frizzante
+    en: sparkling water
+    note: still water — l'acqua naturale
+  - text: il conto
+    en: the bill
+
+phrases:
+  - text: Un tavolo per due, per favore.
+    en: A table for two, please.
+  - text: Che cosa ci consiglia?
+    en: What do you recommend (to us)?
+  - text: Il pesce è fresco?
+    en: Is the fish fresh?
+  - text: Per me gli spaghetti alle vongole.
+    en: For me the spaghetti with clams.
+  - text: Come secondo prendo il pesce spada.
+    en: As a main course I'll have the swordfish.
+  - text: Una bottiglia di vino bianco e acqua frizzante.
+    en: A bottle of white wine and sparkling water.
+  - text: Il conto, per favore.
+    en: The bill, please.
+  - text: Era tutto buonissimo!
+    en: Everything was delicious!
+
+grammar: |
+  ## Ordering
+
+  - **Per me** + dish: *Per me gli spaghetti alle vongole.*
+  - **Prendo** + dish (I'll have): *Prendo il pesce spada.*
+  - **Vorrei** + dish (I'd like): *Vorrei un antipasto di mare.*
+
+  ## Plural articles (*the*)
+
+  | singular | plural | when |
+  |---|---|---|
+  | il gambero | **i** gamberi | masculine, most words |
+  | lo spaghetto | **gli** spaghetti | masculine before *s* + consonant, *z* |
+  | l'antipasto | **gli** antipasti | masculine before a vowel |
+  | la cozza | **le** cozze | feminine |
+  | l'ostrica | **le** ostriche | feminine before a vowel |
+
+  ## A typical menu
+
+  **antipasto** → **primo** (pasta) → **secondo** (fish or meat) with **contorno** (side) → **dolce** → **caffè**. Nobody expects you to order them all!
+
+dialogue:
+  title: A seafood trattoria in Sicily
+  speakers:
+    Cameriere: male
+  lines:
+    - speaker: Cameriere
+      text: Buonasera! Siete pronti per ordinare?
+      en: Good evening! Are you ready to order?
+    - speaker: you
+      text: Sì. Che cosa ci consiglia?
+      en: Yes. What do you recommend?
+    - speaker: Cameriere
+      text: Oggi il pesce spada è freschissimo.
+      en: Today the swordfish is very fresh.
+    - speaker: you
+      text: Allora per me gli spaghetti alle vongole e poi il pesce spada.
+      en: Then for me the spaghetti with clams and then the swordfish.
+    - speaker: Cameriere
+      text: Benissimo. E da bere?
+      en: Very good. And to drink?
+    - speaker: you
+      text: Una bottiglia di vino bianco e acqua frizzante, per favore.
+      en: A bottle of white wine and sparkling water, please.
+    - speaker: Cameriere
+      text: Subito!
+      en: Right away!
+
+challenge:
+  - text: Un tavolo per due, per favore.
+    en: A table for two, please.
+  - text: Che cosa ci consiglia?
+    en: What do you recommend?
+    accept:
+      - Cosa ci consiglia?
+      - Che cosa mi consiglia?
+      - Cosa mi consiglia?
+  - text: Per me gli spaghetti alle vongole.
+    en: For me the spaghetti with clams.
+    accept:
+      - Per me spaghetti alle vongole.
+      - Prendo gli spaghetti alle vongole.
+  - text: Il conto, per favore.
+    en: The bill, please.
+  - text: Era tutto buonissimo!
+    en: Everything was delicious!
+    accept:
+      - Era tutto buono!

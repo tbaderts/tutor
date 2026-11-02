@@ -35,6 +35,8 @@ export interface HistoryEntry {
   heard: string;
   score: number;
   verdict: Verdict;
+  /** Set when the attempt was made in a lesson. */
+  lessonId?: string;
 }
 
 export type EngineState = 'idle' | 'loading' | 'ready' | 'error';

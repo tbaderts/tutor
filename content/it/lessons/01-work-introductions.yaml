@@ -1,0 +1,132 @@
+id: work-1
+topic: work
+title: Mi presento
+subtitle: Introduce yourself and say what you do for a living
+level: A1
+goals:
+  - Greet someone and introduce yourself
+  - Say what your job is and where you work
+  - Ask someone else about their job
+
+vocabulary:
+  - text: il lavoro
+    en: work, job
+  - text: l'ingegnere del software
+    en: software engineer
+    note: for a woman also "l'ingegnera"
+  - text: lo sviluppatore
+    en: developer (m.)
+    note: f. la sviluppatrice
+  - text: il programmatore
+    en: programmer (m.)
+    note: f. la programmatrice
+  - text: l'azienda
+    en: company (f.)
+  - text: il collega
+    en: colleague (m.)
+    note: f. la collega
+  - text: il computer
+    en: computer
+    note: same in the plural — i computer
+  - text: il progetto
+    en: project
+  - text: il cliente
+    en: client, customer
+  - text: l'ufficio
+    en: office (m.)
+  - text: interessante
+    en: interesting
+
+phrases:
+  - text: Ciao, sono Giulia.
+    en: Hi, I'm Giulia.
+  - text: Piacere!
+    en: Nice to meet you!
+  - text: Che lavoro fai?
+    en: What do you do (for work)?
+    note: informal; formal "Che lavoro fa?"
+  - text: Sono ingegnere del software.
+    en: I'm a software engineer.
+    note: no article after "sono" with jobs
+  - text: Faccio lo sviluppatore.
+    en: I work as a developer.
+    note: fare + article + job
+  - text: Lavoro per un'azienda tecnologica.
+    en: I work for a tech company.
+  - text: Lavoro da casa due giorni alla settimana.
+    en: I work from home two days a week.
+  - text: E tu, che lavoro fai?
+    en: And you, what do you do?
+
+grammar: |
+  ## The verb *essere* (to be)
+
+  | form | meaning | example |
+  |---|---|---|
+  | io **sono** | I am | Sono ingegnere. |
+  | tu **sei** | you are | Sei italiano? |
+  | lui / lei **è** | he / she is | È una collega. |
+  | noi **siamo** | we are | Siamo colleghi. |
+  | voi **siete** | you (pl.) are | Siete in ufficio? |
+  | loro **sono** | they are | Sono programmatori. |
+
+  Italian usually drops the subject pronoun: **Sono ingegnere** = *I am an engineer*.
+
+  ## Saying your job
+
+  - **Sono** + job, *without* an article: *Sono ingegnere.* *Sono insegnante.*
+  - **Faccio** + article + job: *Faccio l'ingegnere.* *Faccio lo sviluppatore.*
+
+  ## *A / an*: un, uno, una, un'
+
+  | | when | example |
+  |---|---|---|
+  | **un** | most masculine words | un progetto, un ufficio |
+  | **uno** | masculine before *s* + consonant, *z*, *ps*, *gn* | uno sviluppatore |
+  | **una** | feminine | una collega |
+  | **un'** | feminine before a vowel | un'azienda |
+
+dialogue:
+  title: At a friend's dinner party
+  speakers:
+    Giulia: female
+  lines:
+    - speaker: Giulia
+      text: Ciao, io sono Giulia. E tu come ti chiami?
+      en: Hi, I'm Giulia. And what's your name?
+    - speaker: you
+      text: Ciao Giulia, piacere!
+      en: Hi Giulia, nice to meet you!
+    - speaker: Giulia
+      text: Piacere mio! Che lavoro fai?
+      en: My pleasure! What do you do?
+    - speaker: you
+      text: Sono ingegnere del software. Lavoro per un'azienda tecnologica.
+      en: I'm a software engineer. I work for a tech company.
+    - speaker: Giulia
+      text: Interessante! Lavori in ufficio?
+      en: Interesting! Do you work in an office?
+    - speaker: you
+      text: No, lavoro spesso da casa. E tu?
+      en: No, I often work from home. And you?
+    - speaker: Giulia
+      text: Io sono insegnante. Lavoro in una scuola a Firenze.
+      en: I'm a teacher. I work in a school in Florence.
+
+challenge:
+  - text: Sono ingegnere del software.
+    en: I'm a software engineer.
+    accept:
+      - Sono un ingegnere del software.
+      - Faccio l'ingegnere del software.
+  - text: Lavoro da casa.
+    en: I work from home.
+  - text: Che lavoro fai?
+    en: What do you do for work?
+  - text: Lavoro per un'azienda tecnologica.
+    en: I work for a tech company.
+  - text: Piacere!
+    en: Nice to meet you!
+    accept:
+      - Piacere di conoscerti!
+      - Molto piacere!

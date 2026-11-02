@@ -2,7 +2,7 @@ import type { IpcMain } from 'electron';
 import type { ConfigService } from '../services/ConfigService';
 import type { OllamaService } from '../services/OllamaService';
 import { nativeLanguageName, targetLanguage } from '../../shared/languages';
-import { assistantPrompt, evaluatePrompt, freeSpeechPrompt, translatePrompt, type AskContext } from '../../shared/prompts';
+import { assistantPrompt, evaluatePrompt, freeSpeechPrompt, recallPrompt, translatePrompt, type AskContext } from '../../shared/prompts';
 import type { ChatMessage, Evaluation, FreeCheck, Verdict } from '../../shared/types/tutor';
 
 /** Keeps the Ask prompt small enough for a 4B model. */
@@ -28,12 +28,12 @@ export function registerTutorIpc(ipcMain: IpcMain, configService: ConfigService,
 
   ipcMain.handle(
     'tutor:evaluate',
-    async (_event, target: string, heard: string, unsure: string[], score: number): Promise<Evaluation> => {
+    async (_event, target: string, heard: string, unsure: string[], score: number, cue?: string): Promise<Evaluation> => {
       const n = names();
-      const res = await ollama.chatJson(
-        evaluatePrompt(n.native, n.target),
-        `TARGET: ${target}\nHEARD: ${heard}\nUNSURE: ${unsure.join(', ') || 'none'}\nWord match score: ${score}%`,
-      );
+      const attempt = `HEARD: ${heard}\nUNSURE: ${unsure.join(', ') || 'none'}\nWord match score: ${score}%`;
+      const res = cue
+        ? await ollama.chatJson(recallPrompt(n.native, n.target), `CUE: ${cue}\nEXPECTED: ${target}\n${attempt}`)
+        : await ollama.chatJson(evaluatePrompt(n.native, n.target), `TARGET: ${target}\n${attempt}`);
       return { verdict: verdictOf(res.verdict), feedback: str(res.feedback), tip: str(res.tip) };
     },
   );

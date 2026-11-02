@@ -11,6 +11,7 @@ export interface NavItem {
 }
 
 export const NAV_ITEMS: NavItem[] = [
+  { id: 'lessons', label: 'Lessons', group: 'Learn', icon: 'BookOpen' },
   { id: 'practice', label: 'Practice', group: 'Learn', icon: 'AudioLines' },
   { id: 'free', label: 'Free Speaking', group: 'Learn', icon: 'Mic' },
   { id: 'ask', label: 'Ask the Teacher', group: 'Learn', icon: 'MessagesSquare' },
@@ -27,7 +28,7 @@ interface NavigationState {
 }
 
 export const useNavigationStore = create<NavigationState>((set) => ({
-  activeView: 'practice',
+  activeView: 'lessons',
   sidebarCollapsed: false,
   setActiveView: (view) => set({ activeView: view }),
   toggleSidebar: () => set((state) => ({ sidebarCollapsed: !state.sidebarCollapsed })),

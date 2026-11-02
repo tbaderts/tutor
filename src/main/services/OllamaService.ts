@@ -5,6 +5,18 @@ interface ChatOptions {
   temperature?: number;
 }
 
+interface StreamOptions {
+  /** JSON schema the answer must follow (Ollama structured outputs). */
+  format?: object;
+  temperature?: number;
+  /** Context window; long prompts plus long answers need more than Ollama's default. */
+  numCtx?: number;
+  /** Overrides the configured model for this call. */
+  model?: string;
+  timeoutMs?: number;
+  signal?: AbortSignal;
+}
+
 /** Drops <think>…</think> blocks of reasoning models (qwen3, deepseek-r1) from a streamed answer. */
 export class ThinkFilter {
   private inThink = false;
@@ -103,18 +115,25 @@ export class OllamaService {
   }
 
   /** Multi-turn chat; `onChunk` receives the answer as it arrives. Resolves with the whole answer. */
-  async chatStream(system: string, messages: ChatMessage[], onChunk: (chunk: string) => void): Promise<string> {
+  async chatStream(
+    system: string,
+    messages: ChatMessage[],
+    onChunk: (chunk: string) => void,
+    options: StreamOptions = {},
+  ): Promise<string> {
+    const timeout = AbortSignal.timeout(options.timeoutMs ?? 300_000);
     const res = await fetch(this.url('/api/chat'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        model: this.settings().model,
+        model: options.model ?? this.settings().model,
         messages: [{ role: 'system', content: system }, ...messages],
         stream: true,
         keep_alive: '15m',
-        options: { temperature: 0.4 },
+        ...(options.format && { format: options.format }),
+        options: { temperature: options.temperature ?? 0.4, ...(options.numCtx && { num_ctx: options.numCtx }) },
       }),
-      signal: AbortSignal.timeout(300_000),
+      signal: options.signal ? AbortSignal.any([timeout, options.signal]) : timeout,
     });
     if (!res.ok || !res.body) throw new Error(`Ollama answered ${res.status}: ${await res.text()}`);
 

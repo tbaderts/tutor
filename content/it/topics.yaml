@@ -1,0 +1,37 @@
+# Topics of the Italian lessons, in the order they are shown.
+# icon: a lucide-react icon name known to the Lessons view (Laptop, Bike, Dog, MapPin, UtensilsCrossed, Landmark, Trees, BookOpen).
+- id: work
+  title: Work
+  title_target: Il lavoro
+  description: Introduce yourself and talk about your day as a software engineer.
+  icon: Laptop
+- id: sports
+  title: Sports
+  title_target: Lo sport
+  description: Cycling, running, swimming, triathlon, boxing, winter sports — and the aches afterwards.
+  icon: Bike
+- id: dog
+  title: My dog
+  title_target: Il mio cane
+  description: Talk about your dog and chat with the people you meet on walks.
+  icon: Dog
+- id: travel
+  title: Holidays in Italy
+  title_target: Vacanze in Italia
+  description: Tuscany, Liguria and Sicily — arriving, finding your way, trains, the beach and the weather.
+  icon: MapPin
+- id: food
+  title: Food
+  title_target: Il cibo
+  description: Seafood, steak and traditional Italian cooking — ordering and saying what you like.
+  icon: UtensilsCrossed
+- id: politics
+  title: Politics
+  title_target: La politica
+  description: Key words and simple ways to give your opinion, agree and disagree.
+  icon: Landmark
+- id: nature
+  title: Nature and environment
+  title_target: Natura e ambiente
+  description: Landscapes, the outdoors and protecting the environment.
+  icon: Trees

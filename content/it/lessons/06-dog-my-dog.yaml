@@ -1,0 +1,126 @@
+id: dog-1
+topic: dog
+title: Il mio cane
+subtitle: Describe your dog
+level: A1
+goals:
+  - Say you have a dog, its name and age
+  - Use the verb avere
+  - Make adjectives agree (buono / buona)
+
+vocabulary:
+  - text: il cane
+    en: dog
+  - text: il cucciolo
+    en: puppy
+  - text: il guinzaglio
+    en: leash
+  - text: la passeggiata
+    en: walk
+  - text: la razza
+    en: breed
+  - text: il maschio
+    en: male
+  - text: la femmina
+    en: female
+  - text: grande
+    en: big
+  - text: piccolo
+    en: small (m.)
+    note: f. piccola
+  - text: buono
+    en: good, well-behaved (m.)
+    note: f. buona
+  - text: giocherellone
+    en: playful (m.)
+    note: f. giocherellona
+  - text: la pallina
+    en: (small) ball
+  - text: il veterinario
+    en: vet
+
+phrases:
+  - text: Ho un cane.
+    en: I have a dog.
+  - text: Il mio cane si chiama Max.
+    en: My dog is called Max.
+  - text: Ha tre anni.
+    en: He's three years old.
+  - text: È un maschio.
+    en: He's a male.
+  - text: È molto buono e giocherellone.
+    en: He's very good and playful.
+  - text: Porto il cane a spasso ogni mattina.
+    en: I walk the dog every morning.
+  - text: Facciamo una lunga passeggiata.
+    en: We go for a long walk.
+  - text: Gli piace giocare con la pallina.
+    en: He likes playing with the ball.
+
+grammar: |
+  ## *avere* (to have) — irregular
+
+  | singular | plural |
+  |---|---|
+  | io **ho** | noi **abbiamo** |
+  | tu **hai** | voi **avete** |
+  | lui / lei **ha** | loro **hanno** |
+
+  The *h* is silent. Age uses *avere*: **Ha tre anni** — literally *"he has three years"*.
+
+  ## Adjectives agree
+
+  | | masculine | feminine |
+  |---|---|---|
+  | singular | buon**o** | buon**a** |
+  | plural | buon**i** | buon**e** |
+
+  Adjectives ending in **-e** have one form for both genders: *grande, grandi*.
+
+  For a female dog: *È una femmina. È molto buon**a** e giocherellon**a**.*
+
+  ## *my*
+
+  **il mio** cane, **la mia** cagnolina — the article stays: *il mio cane* = *my dog*.
+
+dialogue:
+  title: Meeting a neighbour in the stairwell
+  speakers:
+    Vicina: female
+  lines:
+    - speaker: Vicina
+      text: Che bel cane! È tuo?
+      en: What a beautiful dog! Is he yours?
+    - speaker: you
+      text: Sì, è il mio cane. Si chiama Max.
+      en: Yes, he's my dog. He's called Max.
+    - speaker: Vicina
+      text: Quanti anni ha?
+      en: How old is he?
+    - speaker: you
+      text: Ha tre anni.
+      en: He's three years old.
+    - speaker: Vicina
+      text: È buono?
+      en: Is he good?
+    - speaker: you
+      text: Sì, è molto buono e giocherellone.
+      en: Yes, he's very good and playful.
+    - speaker: Vicina
+      text: Ciao Max! Buona passeggiata!
+      en: Hi Max! Have a nice walk!
+
+challenge:
+  - text: Ho un cane.
+    en: I have a dog.
+  - text: Il mio cane si chiama Max.
+    en: My dog is called Max.
+  - text: Ha tre anni.
+    en: He is three years old.
+  - text: È molto giocherellone.
+    en: He is very playful.
+  - text: Porto il cane a spasso ogni mattina.
+    en: I walk the dog every morning.
+    accept:
+      - Porto fuori il cane ogni mattina.
+      - Ogni mattina porto il cane a spasso.

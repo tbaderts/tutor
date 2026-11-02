@@ -1,0 +1,115 @@
+id: politics-1
+topic: politics
+title: Parliamo di politica
+subtitle: Key words and giving a simple opinion
+level: A1
+goals:
+  - Know the key words of politics
+  - Give your opinion with secondo me
+  - Agree and disagree politely
+
+vocabulary:
+  - text: la politica
+    en: politics
+  - text: il governo
+    en: government
+  - text: il parlamento
+    en: parliament
+  - text: il presidente
+    en: president
+  - text: le elezioni
+    en: elections
+  - text: votare
+    en: to vote
+  - text: il partito
+    en: (political) party
+  - text: la legge
+    en: law
+  - text: il cittadino
+    en: citizen (m.)
+    note: f. la cittadina
+  - text: la democrazia
+    en: democracy
+  - text: le notizie
+    en: the news
+  - text: importante
+    en: important
+  - text: complicato
+    en: complicated
+
+phrases:
+  - text: Secondo me, è una buona idea.
+    en: In my opinion, it's a good idea.
+  - text: Sono d'accordo.
+    en: I agree.
+  - text: Non sono d'accordo.
+    en: I don't agree.
+  - text: Dipende.
+    en: It depends.
+  - text: Che ne pensi?
+    en: What do you think (about it)?
+  - text: Quando ci sono le elezioni?
+    en: When are the elections?
+  - text: Votare è importante.
+    en: Voting is important.
+  - text: È un tema complicato.
+    en: It's a complicated topic.
+
+grammar: |
+  ## Negation: *non*
+
+  Put **non** directly before the verb: *Sono d'accordo → **Non** sono d'accordo.* *Voto → **Non** voto.*
+
+  ## Giving an opinion
+
+  - **Secondo me**, … — in my opinion, …: *Secondo me, è una buona idea.*
+  - **Per me** … — for me …: *Per me è importante.*
+  - **Penso di sì / Penso di no.** — I think so / I don't think so.
+  - **Che ne pensi?** — what do you think about it? (polite: *Che ne pensa?*)
+
+  Later (A2/B1) you'll learn *Penso che sia…*, which needs a new verb form. With *secondo me* the normal present tense is fine.
+
+  ## Talking politely
+
+  Politics is personal. **Dipende**, **È un tema complicato** and **Hai ragione, ma…** (you're right, but…) keep a conversation friendly.
+
+dialogue:
+  title: Coffee with a colleague
+  speakers:
+    Andrea: male
+  lines:
+    - speaker: Andrea
+      text: Al telegiornale parlano di una nuova legge sull'ambiente.
+      en: On the TV news they're talking about a new environmental law.
+    - speaker: you
+      text: Sì. Secondo me, è una buona idea.
+      en: Yes. In my opinion, it's a good idea.
+    - speaker: Andrea
+      text: Io non sono d'accordo. È troppo cara.
+      en: I don't agree. It's too expensive.
+    - speaker: you
+      text: Dipende. È un tema complicato.
+      en: It depends. It's a complicated topic.
+    - speaker: Andrea
+      text: Vero. Tu vai a votare?
+      en: True. Are you going to vote?
+    - speaker: you
+      text: Sì, votare è importante.
+      en: Yes, voting is important.
+    - speaker: Andrea
+      text: Anche secondo me.
+      en: I think so too.
+
+challenge:
+  - text: Secondo me, è una buona idea.
+    en: In my opinion, it's a good idea.
+    accept:
+      - Per me è una buona idea.
+  - text: Sono d'accordo.
+    en: I agree.
+  - text: Non sono d'accordo.
+    en: I don't agree.
+  - text: Che ne pensi?
+    en: What do you think about it?
+  - text: Votare è importante.
+    en: Voting is important.
